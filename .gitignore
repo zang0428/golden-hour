@@ -44,3 +44,10 @@ coverage/
 tmp/
 cache/
 outputs/
+
+# 本地个人配置（课表里含姓名、学号，不要提交）
+courses.json
+*.local.json
+
+# 生成出来的日历文件，用脚本随时能重新生成
+*.ics
