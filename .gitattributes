@@ -1,0 +1,13 @@
+# 让文本文件在 Windows 和 Linux 之间保持一致，避免整文件 diff
+* text=auto
+
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.sh text eol=lf
+
+*.png binary
+*.jpg binary
+*.pdf binary
+*.zip binary
+*.xlsx binary
